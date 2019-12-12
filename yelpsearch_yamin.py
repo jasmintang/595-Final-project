@@ -12,7 +12,7 @@ from textblob import TextBlob
 from collections import Counter
 from flask import Flask, redirect, render_template, request, session, url_for
 
-## PROCESS DATA
+### PROCESS DATA
 resturant_name = []
 resturant_id = []
 ratings = []
