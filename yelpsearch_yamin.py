@@ -135,7 +135,7 @@ def yelpsearch():
 
     return render_template('home.html', error=error)
 
-
+### my working part
 def graphRegression():
     _rate = []
     global __adj
@@ -186,6 +186,7 @@ def graphRegression():
 
 
 graphRegression()
+###done
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=5000, debug=True)
